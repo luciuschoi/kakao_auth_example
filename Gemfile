@@ -7,6 +7,7 @@ gem 'bootstrap'
 gem 'devise'
 gem 'jquery-rails'
 gem 'omniauth-kakao', github: 'luciuschoi/omniauth-kakao'
+gem 'omniauth-naver'
 gem 'rails-env-credentials'
 gem 'simple_form'
 
