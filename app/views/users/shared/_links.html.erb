@@ -20,6 +20,7 @@
 
 <%- if devise_mapping.omniauthable? %>
   <%= link_to 'Sign in with Kakao', user_kakao_omniauth_authorize_path, class: 'btn btn-outline-primary' %>
+  <%= link_to 'Sign in with Naver', user_naver_omniauth_authorize_path, class: 'btn btn-outline-primary' %>
   <%#- resource_class.omniauth_providers.each do |provider| %>
     <%#= link_to "Sign in with #{OmniAuth::Utils.camelize(provider)}", omniauth_authorize_path(resource_name, provider) %><br />
   <%# end -%>

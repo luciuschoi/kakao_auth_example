@@ -3,7 +3,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :omniauthable, omniauth_providers: %i[kakao]
+         :omniauthable, omniauth_providers: %i[kakao naver]
 
   def self.find_for_oauth(auth)
     user = where(auth.slice(:provider, :uid)).first_or_create do |user|

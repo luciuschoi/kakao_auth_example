@@ -256,6 +256,7 @@ Devise.setup do |config|
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
 
   config.omniauth :kakao, Rails.application.credentials.kakao_client_id
+  config.omniauth :naver, Rails.application.credentials.naver_key, Rails.application.credentials.naver_secret
   
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
