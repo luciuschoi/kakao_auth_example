@@ -146,6 +146,8 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
+    rails-env-credentials (0.1.1)
+      rails (>= 5.2.0.rc1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     railties (5.2.0.rc1)
@@ -233,6 +235,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 5.2.0.rc1)
+  rails-env-credentials
   sass-rails (~> 5.0)
   selenium-webdriver
   simple_form
