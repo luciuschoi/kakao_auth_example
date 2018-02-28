@@ -1,21 +1,5 @@
 # Simple Login using Kakao & Naver OmniAuth
 
-<!-- TOC -->
-
-- [Simple Login using Kakao & Naver OmniAuth](#simple-login-using-kakao--naver-omniauth)
-- [aws:](#aws)
-- [access_key_id: 123](#access_key_id-123)
-- [secret_access_key: 345](#secret_access_key-345)
-- [Used as the base secret for all MessageVerifiers in Rails, including the one protecting cookies.](#used-as-the-base-secret-for-all-messageverifiers-in-rails-including-the-one-protecting-cookies)
-- [aws:](#aws-1)
-- [access_key_id: 123](#access_key_id-123-1)
-- [secret_access_key: 345](#secret_access_key-345-1)
-- [Used as the base secret for all MessageVerifiers in Rails, including the one protecting cookies.](#used-as-the-base-secret-for-all-messageverifiers-in-rails-including-the-one-protecting-cookies-1)
-- [frozen_string_literal: true](#frozen_string_literal-true)
-
-<!-- /TOC -->
-```
-
 ### 1. Gemfile Composition
 
 Open Gemfile and add necessary gems as follows:
