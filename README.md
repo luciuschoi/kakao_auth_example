@@ -160,6 +160,8 @@ On completion, you can get the result as follows:
 
 Among four keys, RESP API key, which will be assigned to kakao_client_id key, is needed.
 
+##### (2) Create Credentials for Development Environment
+
 Let's add this key to **credentails-development.yml.enc file**.
 
 ```shell
@@ -187,7 +189,7 @@ So you visit https://developers.naver.com/apps to register your app.
 ![](app/assets/images/new_naver1_app.png)
 ![](app/assets/images/created_naver_app.png)
 
-Client ID to naver_key and Client Secret to naver_secret
+Client ID is for naver_key and Client Secret for naver_secret.
 
 Let's add these keys to **credentails-development.yml.enc file**.
 
